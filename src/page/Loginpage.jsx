@@ -51,7 +51,7 @@ function Loginpage() {
                     onChange={(e) =>
                       setForm((f) => ({ ...f, email: e.target.value }))
                     }
-                    placeholder="you@example.com"
+
                     className="w-full pl-10 pr-4 py-3  rounded-xl border border-slate-200 outline-none text-sm text-slate-700 transition-all"
                   />
                 </div>

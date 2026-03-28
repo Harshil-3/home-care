@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <div className="bg-gray-100 min-h-screen">
-        <section className="grid md:grid-cols-2 gap-10 items-center px-8 py-16">
+        <section className="grid md:grid-cols-2 min-w-screen gap-10 items-center px-8 py-16">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
               Quality Care for <br />
@@ -40,7 +40,8 @@ function Home() {
           </div>
 
           <div className="relative">
-            <img src={Img} alt="" className="rounded-2xl shadow-lg" />
+
+            <img src={Img} alt="" className="rounded-2xl shadow-lg w-full" />
 
             <div className="absolute bottom-4 left-4 bg-white shadow-md px-5 py-3 rounded-xl">
               <h2 className="text-blue-600 font-bold text-xl">4.9/5</h2>

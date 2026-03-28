@@ -10,6 +10,9 @@ import CaregiverDetailPage from "./page/CaregiverDetailPage";
 import Bookingpage from "./page/user/Bookingpage";
 import Loginpage from "./page/Loginpage";
 import Register from "./page/Register";
+import CaregiverDashboard from "./page/Caregiver/CaregiverDashboard";
+import UserDashboard from "./page/user/UserDashboard";
+
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
             <Route path="/caregiver/:id" element={<CaregiverDetailPage/>}></Route>
             <Route path="/Loginpage" element={<Loginpage />}></Route>
             <Route path="/Register" element={<Register/>}></Route>
+            <Route path="/user/dashboard" element={<UserDashboard />}></Route>
+            <Route path="/Caregiver/dashboard" element={<CaregiverDashboard />}></Route>
+
           </Route>
           {/* Without Navbar and Footer Bellow */}
           <Route path="/Bookingpage" element={<Bookingpage/>}></Route>
